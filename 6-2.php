@@ -4,7 +4,7 @@ $items = [
   ['JavaScript入門', 2000],
   ['Go入門', 3000]
 ];
-$file = new SplFileObject('data/items,csv', 'w');
+$file = new SplFileObject('data/items.csv', 'w');
 // $file->fputcsv($items);
 
 foreach ($items as $item) {
